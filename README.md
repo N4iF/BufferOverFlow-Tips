@@ -100,7 +100,7 @@ After running this script, the program crashed and we got a new EIP,
 so we now need to find that this value (386F4337) is exactly where in our pattern, 
 it will indicate offset value. For that, we will be using “pattern_offset.rb”
 
-> msf-pattern_create -l 2100 -q 386F4337
+> msf-pattern_offset -l 2100 -q 386F4337
 [*] Exact match at offset 2003
 
 So we know we need to have 2003 bytes written and then we will start writing to our EIP (Evil Instruction Pointer).
