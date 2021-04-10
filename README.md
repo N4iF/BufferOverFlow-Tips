@@ -2,7 +2,7 @@
 Buffer Overflows
 ################
 
-Make it Easy // _ https://catharsis.net.au/blog/basic-buffer-overflow-guide/ _
+Make it Easy
 ----
 
 
@@ -287,3 +287,4 @@ except:
 Put the listenser on the port used in generating the payload 
 
 # We done Here ! Nice Hacking
+Resources: https://catharsis.net.au/blog/basic-buffer-overflow-guide/
